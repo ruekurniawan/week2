@@ -11,8 +11,8 @@ ALGORITMA
 
 PSEUCODE
 STORE "gaya" without any value
-STORE "massa" with any value
-STORE "percepatan" with any value
+STORE "massa" with 600
+STORE "percepatan" with 2
 
 CALCULATE "gaya" times "massa"
 SET "gaya" value with calculation result
@@ -45,9 +45,10 @@ ELSE
 SOAL NO 3
 
 ALGORITMA
-1. Masukan variabel "baju"
-2. Hitung "baju" yang dimasukan sampai 20, bila sudah sampai 20 lanjutkan langkah 3
-3. Total "baju" = 20 mesin bisa dinyalakan
+1. Masukan variabel "baju" dari 0
+2. Baju yang dimasukan mesin cuci sampai 20
+3. Hitung baju satu per satu, bila baju sudah masuk sampai 20, lanjutkan langkah 4
+4. Total "baju" = 20 mesin bisa dinyalakan
 
 PSEUCODE 
 STORE "baju" with 0
